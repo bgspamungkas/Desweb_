@@ -1,8 +1,10 @@
 body {
   background-color: #e6e6e6;
+  
 }
+
 #bawahnya_model {
-  margin: 0 0;
+  margin: 0 0 0 0;
 }
 
 /*--Bar_navigasi--*/
@@ -15,7 +17,7 @@ body {
 }
 
 .collapse.navbar-collapse.justify-content-md-end{
-  margin-left: 150px;
+  margin-left: 100px;
   padding: 10px;
 }
 .nav-link:hover {
@@ -50,50 +52,9 @@ button.btn.btn-primary:hover {
   outline: 0;
 }
 
-/* scroll down */
-.scrolldown {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transform-origin: right top 0;
-  -ms-transform-origin: right top 0;
-  transform-origin: right top 0;
-  float: right;
-}
-.scrolldown i {
-  padding-left: 9px;
-}
-.scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
-  color: #151515 !important;
-}
-
-html[data-useragent*='MSIE 10.0'] .scrolldown,
-.oldie .scrolldown {
-  display: none;
-}
-
-.scroll-icon {
-  display: inline-block;
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  color: #FFFFFF !important;
-  background: transparent;
-  position: relative;
-  top: 36px;
-  right: 42px;
-  -webkit-animation: animate-it 3s ease infinite;
-  animation: animate-it 3s ease infinite;
-}
 
 /* header */
-.carousel-item{
-  height: 100vh;
-}
+
 .header {
   background-size: cover;
   background-repeat: no-repeat;
@@ -109,6 +70,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   top: 0;
   background: rgba(0, 0, 0, 0.6);
 }
+
 /* description */
 .description {
   left: 50%;
@@ -333,16 +295,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 /*footer*/
 
 @media screen and (max-width: 320px) {
-    .img{
-      display: none;
-      width: 500px;
-    }
-    .judul1{
-      font-size: 25px;
-    }
-  
-    .gambar{
-      display: block;
+    .description{
+      padding-top: 1%;
+      font-size: 100;
     }
   }
   @media screen and (max-width: 425px) {
@@ -357,42 +312,32 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     .gambar{
       display: block;
     }
+    #model {
+      max-width: 110%;
+      height:auto;
+    }
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .img{
       display: none;
       width: 500px;
     }
-  
     .gambar{
       display: block;
     }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .img{
-      display: none;
-      width: 500px;
+    #program_smp {
+      margin-left: -37px;
+    } 
+    #model_smp {
+      margin-left: -50px;
+    } 
+    .program-bimbel-2 {
+      margin-right: 20px;
+    }
+
+    .description{
+      top: 35%;
     }
   
-    .gambar{
-      display: block;
-    }
   
-  }
   
-  @media screen and (max-width: 1199px) {
-    .img{
-      width: 450px;
-      z-index: -1;
-    }
-  
-  }
-  
-  @media screen and (max-width: 992px) {
-    .img{
-      width: 300px;
-      z-index: -1;
-    }
-  
-  }
