@@ -295,10 +295,8 @@ button.btn.btn-primary:hover {
 /*footer*/
 
 @media screen and (max-width: 320px) {
-    .description{
-      padding-top: 1%;
-      font-size: 100;
-    }
+    
+    .
   }
   @media screen and (max-width: 425px) {
     .img{
@@ -341,6 +339,3 @@ button.btn.btn-primary:hover {
     .marketing img {
     height: 350px;
     }
-  
-  
-  
